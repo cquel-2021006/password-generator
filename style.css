@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3b3b98;
+    font-family: 'Muli', sans-serif;
+    margin: 0;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.container {
+    background-color: #22235b;
+    color: white;
+    padding: 15px;
+    width: 350px;
+    max-width: 550px;
+}
+
+.btn {
+    background-color: #3b3c97;
+    border: none;
+    font-size: 15px;
+    color: white;
+    padding: 10px 90px;
+    cursor: pointer;
+    font-family: Arial;
+}
+
+.password-container {
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 12px 10px;
+    height: 50px;
+    width: 100%;
+}
+
+.password-container .password {
+    word-wrap: break-word;
+    max-width: calc(100% - 40px);
+}
+
+.password-container .btnCopy {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.btnCopy {
+    border: none;
+  background-color: #3b3b98;
+  color: #fff;
+  font-size: 16px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.password {
+    background-color: #151537;
+    color: white;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.password.btnCopy {
+    margin-left: 5px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.input-with-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1px 0;
+}
